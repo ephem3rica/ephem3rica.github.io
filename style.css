@@ -1,0 +1,68 @@
+* {
+    margin: 16px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    font-family: "Google Sans", sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+div.title {
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+div.contact {
+    font-weight: 0;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 10px;
+    border-width: 0;
+    background-color: rgb(48, 136, 55);
+} 
+
+.normalbutton {
+    text-decoration: none;
+    background-color: #fcfcfd;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: rgb(161, 161, 161);
+    border-style: solid;
+    box-shadow:
+    rgba(0, 0, 0, 0.2) 0 1px 4px,
+    rgba(80, 80, 80, 0.1) 0 6px 3px -3px,
+    #e6e6e6 0 -4px 0 inset;
+    font-size: 16px;
+    padding: 16px;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    transition:
+        box-shadow 0.2s,
+        transform 0.2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: box-shadow, transform;
+}
+
+.normalbutton:hover {
+  box-shadow:
+    rgba(40, 40, 40, 0.2) 0 4px 8px,
+    rgba(40, 40, 40, 0.1) 0 7px 13px -3px,
+    #e6e6e6 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
